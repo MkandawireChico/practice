@@ -60,7 +60,7 @@
     padding: 1.25rem;
     padding-bottom: 2.5rem;
     width: 100%;
-    max-width: 16rem; /* Adjust as needed */
+    max-width: 16rem; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
