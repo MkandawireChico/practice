@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header"></div>
+        <div class="main-content">
+            <div class="side-bar">
+                <div class="side-bar-content">
+                    <a href="index.html" class="side-bar-link"><i class="fa-solid fa-house-chimney"></i>Dashboard</a>
+                </div>
+                <div class="side-bar-content">
+                    <a href="forms.html" class="side-bar-link"><i class="fa-solid fa-cart-shopping"></i>Forms</a>
+                </div>
+                <div class="side-bar-content">
+                    <a href="tables.html" class="side-bar-link"><i class="fa-solid fa-bag-shopping"></i>Tables</a>
+                </div>
+                <div class="side-bar-content">
+                    <a href="elements.html" class="side-bar-link"><i class="fa-solid fa-gear"></i>Elements</a>
+                </div>
+            </div>
+            <div class="main-content-area">
+                <h1>Form Elements</h1>
+                <div class="form-container">
+                    <h4 class="section-title">Record A New Sale</h4>
+                    <hr>
+                    <form class="sale-form">
+                        <div class="form-group">
+                            <label for="product">Product</label>
+                            <input type="text" id="product" name="product" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="price">Price</label>
+                            <input type="number" id="price" name="price" step="0.01" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <select id="category" name="category" required>
+                                <option value="electronics">Electronics</option>
+                                <!-- Add more categories as needed -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea id="description" name="description" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-save">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
